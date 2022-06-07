@@ -1,0 +1,24 @@
+{
+	"name": "expert-week-1",
+	"version": "1.0.0",
+	"description": "Netflix Bandersnatch",
+	"main": "index.js",
+	"scripts": {
+		"assets": "npx http-server --cors -p 8081 assets/",
+		"dev": "npx http-server --cors -p 8080 public/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Michelly-Oliveira/expert-week-1.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Michelly-Oliveira/expert-week-1/issues"
+	},
+	"homepage": "https://github.com/Michelly-Oliveira/expert-week-1#readme",
+	"dependencies": {
+		"http-server": "^14.1.1"
+	}
+}
