@@ -7,22 +7,22 @@
 	"intro": {
 		"url": "$HOST/timeline/01.intro/01.intro-12.73-$RESOLUTION.mp4",
 		"at": 10,
-		"options": ["Guitarra, Violao"],
+		"options": ["Guitarra", "Violao"],
 		"defaultOptions": "Guitarra"
 	},
-	"electricGuitar": {
+	"guitarra": {
 		"url": "$HOST/timeline/02.guitarra/02.guitarra-20.73-$RESOLUTION.mp4",
 		"at": 18,
 		"options": ["Finalizar", "Violao"],
 		"defaultOptions": "Finalizar"
 	},
-	"guitar": {
-		"url": "$HOST/timeline/03.violao/03.violao-31.07-$RESOLUTION.mp4",
+	"violao": {
+		"url": "$HOST/timeline/02.violao/02.violao-31.07-$RESOLUTION.mp4",
 		"at": 28,
 		"options": ["Finalizar", "Guitarra"],
 		"defaultOptions": "Finalizar"
 	},
-	"end": {
-		"url": "$HOST/timeline/04.encerramento/04.encerramento-04.73-$RESOLUTION.mp4"
+	"finalizar": {
+		"url": "$HOST/timeline/03.encerramento/03.encerramento-04.73-$RESOLUTION.mp4"
 	}
 }
